@@ -13,6 +13,7 @@ let option = document.querySelectorAll(".option");
 let compWins = document.querySelector("#compWins");
 let playerWins = document.querySelector("#playerWins");
 let btn = document.querySelector(".btn");
+let text = document.querySelector("#text-display");
 
 
 //computer random guess
@@ -47,6 +48,8 @@ else {
     playerWins.innerText = pWins;
 }
 }
+
+text.innerText = `Computer chose ${compGuess} and You chose ${playerGuess}`;
 
 rock.addEventListener("click", () => {
     playGame("rock");

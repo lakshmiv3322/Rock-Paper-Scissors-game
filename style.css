@@ -48,7 +48,7 @@ p {
     font-size: 40px;
 }
 button {
-    width: 30rem;
+    min-width: 20rem;
     height: 3rem;
     font-size: 1rem;
     display: block;
@@ -67,4 +67,7 @@ button:hover {
     text-align: center;
     color: #01402a;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#text-display {
+    color: #226f54;
 }
