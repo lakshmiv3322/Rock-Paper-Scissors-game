@@ -49,7 +49,6 @@ else {
 }
 }
 
-text.innerText = `Computer chose ${compGuess} and You chose ${playerGuess}`;
 
 rock.addEventListener("click", () => {
     playGame("rock");
